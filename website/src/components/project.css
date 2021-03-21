@@ -1,0 +1,17 @@
+.image {
+    width: 300px;
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+    background: white;
+    border-radius: 32px;
+    color: black;
+    margin: 32px;
+}

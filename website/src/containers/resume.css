@@ -1,0 +1,22 @@
+.button {
+    max-height: 3em;
+    font-size: 1.1em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    border-radius: 5px 5px 5px 5px;
+      background: rgb(0, 0, 0);
+      padding: 0.35em 0.75em;
+    color: rgb(255, 255, 255);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pdf{
+    display: block;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 900px;
+  }
