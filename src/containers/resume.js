@@ -12,11 +12,11 @@ const Resume = () => {
     let src = `https://drive.google.com/file/d/${id}/preview`
 
     return <div class='wrapper'>
-        <h1>Resume</h1>
-        <a href={pdf} download> <button class='button' >Download</button></a>
-        <a href={link} download> <button class='button'>View</button></a>
+        <div class= 'next'>
+            <a href={pdf} download> <button class='button' >Download</button></a>
+            <a href={link}> <button class='button'>View</button></a>
+        </div>
         <iframe title='resume' class='pdf' src={src}/>
-
     </div>
 }
 

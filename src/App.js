@@ -4,12 +4,12 @@ import Resume from './containers/resume'
 import Projects from './containers/projects'
 import NavigationBar from './components/navbar'
 
-import { Route, Redirect, Switch, BrowserRouter} from 'react-router-dom'
+import { Route, Redirect, Switch, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div className="app-background">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavigationBar></NavigationBar>
         <Switch>
           <Route exact path="/" render={() => (

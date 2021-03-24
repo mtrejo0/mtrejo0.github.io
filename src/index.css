@@ -8,3 +8,9 @@
   margin: 32px;
   height: 100vh;
 }
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
